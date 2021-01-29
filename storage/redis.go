@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/techievee/ethash-mining-pool/util"
+	"github.com/kankan1987/ethereum-pool/util"
 	"gopkg.in/redis.v3"
 	"log"
 )

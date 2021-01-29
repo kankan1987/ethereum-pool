@@ -9,13 +9,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/yvasiyarov/gorelic"
+	"github.com/kankan1987/gorelic"
 
-	"github.com/techievee/ethash-mining-pool/api"
-	"github.com/techievee/ethash-mining-pool/exchange"
-	"github.com/techievee/ethash-mining-pool/payouts"
-	"github.com/techievee/ethash-mining-pool/proxy"
-	"github.com/techievee/ethash-mining-pool/storage"
+	"github.com/kankan1987/ethereum-pool/api"
+	"github.com/kankan1987/ethereum-pool/exchange"
+	"github.com/kankan1987/ethereum-pool/payouts"
+	"github.com/kankan1987/ethereum-pool/proxy"
+	"github.com/kankan1987/ethereum-pool/storage"
 )
 
 var cfg proxy.Config

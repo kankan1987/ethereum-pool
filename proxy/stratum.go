@@ -9,7 +9,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/techievee/ethash-mining-pool/util"
+	"github.com/kankan1987/ethereum-pool/util"
 )
 
 const (

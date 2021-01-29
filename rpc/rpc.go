@@ -12,9 +12,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 
-	"github.com/techievee/ethash-mining-pool/util"
+	"github.com/kankan1987/ethereum-pool/util"
 )
 
 type RPCClient struct {
@@ -177,7 +177,7 @@ func (r *RPCClient) GetBalance(address string) (*big.Int, error) {
 
 func (r *RPCClient) Sign(from string, s string) (string, error) {
 	hash := sha256.Sum256([]byte(s))
-	rpcResp, err := r.doPost(r.Url, "eth_sign", []string{from, common.ToHex(hash[:])})
+	rpcResp, err := r.doPost(r.Url, "eth_sign", []string{from, hexutil.Encode(hash[:])})
 	var reply string
 	if err != nil {
 		return reply, err

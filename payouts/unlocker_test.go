@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/techievee/ethash-mining-pool/rpc"
-	"github.com/techievee/ethash-mining-pool/storage"
+	"github.com/kankan1987/ethereum-pool/rpc"
+	"github.com/kankan1987/ethereum-pool/storage"
 )
 
 func TestMain(m *testing.M) {

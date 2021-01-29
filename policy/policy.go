@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/techievee/ethash-mining-pool/storage"
-	"github.com/techievee/ethash-mining-pool/util"
+	"github.com/kankan1987/ethereum-pool/storage"
+	"github.com/kankan1987/ethereum-pool/util"
 )
 
 type Config struct {
